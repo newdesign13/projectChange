@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    background-color: #212121;
+    padding:0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+}
+li {
+    float: left;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #616161;
+}
+div {
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+h1 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    font-size: 50px;
+} 
+.title{
+    color: rgb(192, 187, 187);
+    font-size: 40px;
+}
+.title-box{
+    color: #dd2c00;
+}
+.title-box2{
+    color: #e0e0e0;
+}
+
+.mytext {
+    margin: auto;
+    padding: 20px;
+    background-color:#fff;
+    width: 70%;
+    border-radius: 25px;
+    text-align: justify; 
+}
+.pictures {
+    float: left;
+    display: block;
+    padding: 20px;
+}
+.pictures img{
+    border-radius:20px;
+}
+.pictures .pic{
+    width: 550px;
+}
+
+.myback {
+    background-size: cover;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column {
+    float: left;
+    width: 43.33%;
+    padding-left: 80px;
+  }
+p {
+    color: #263238;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-about{
+    margin: 20%;
+    text-align: center;
+    color: #e0e0e0;
+}
+
